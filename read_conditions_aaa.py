@@ -44,4 +44,4 @@ while True:
     except Exception as ex:
         print(datetime.datetime.now(), "Error publishing to MQTT: {0}".format(str(ex)))
 
-    time.sleep(10)
+    time.sleep(2)
