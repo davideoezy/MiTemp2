@@ -10,7 +10,7 @@ from mqtt_helper import mqtt_helper
 import time
 
 
-device = "lounge_2"
+device = "lounge"
 
 mqtt_helper = mqtt_helper(device)
 
