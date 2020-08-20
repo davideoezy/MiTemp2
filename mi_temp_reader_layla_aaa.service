@@ -4,7 +4,7 @@ After=multi-user.target
 
 [Service]
 Type = idle
-ExecStart=/usr/bin/python3 -u /home/pi/git/MiTemp2/read_conditions_aaa.py
+ExecStart=/usr/bin/python3 -u /home/pi/git/MiTemp2/read_conditions_layla_aaa.py
 WorkingDirectory=/home/pi/git/MiTemp/
 StandardOutput=inherit
 StandardError=inherit
