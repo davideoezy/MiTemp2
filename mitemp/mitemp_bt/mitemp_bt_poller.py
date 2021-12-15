@@ -25,7 +25,7 @@ class MiTempBtPoller(object):
     A class to read data from Mi Temp plant sensors.
     """
 
-    def __init__(self, mac, backend, cache_timeout=600, retries=3, adapter='hci0', ble_timeout=10):
+    def __init__(self, mac, backend, cache_timeout=30, retries=3, adapter='hci0', ble_timeout=10):
         """
         Initialize a Mi Temp Poller for the given MAC address.
         """
